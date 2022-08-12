@@ -1,0 +1,11 @@
+<mapper namespace="test_users">
+    <select id="selectById" paramterType="com.opensourceframework.mybatis.po.TestUsersPO"
+            resultType="com.opensourceframework.mybatis.po.TestUsersPO">
+        select * from test_users where user_id = {#id}
+    </select>
+
+    <select id="selectAll" resultType="com.opensourceframework.mybatis.po.TestUsersPO">
+        select * from test_users
+    </select>
+
+</mapper>

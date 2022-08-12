@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>1.自定义持久层框架</module>
+        <module>frameworkMybatis</module>
     </modules>
     <packaging>pom</packaging>
 
